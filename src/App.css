@@ -1,0 +1,113 @@
+.App .section{
+   height:100vh;
+   width:100%;
+   background:lawngreen;
+   display:flex;
+   align-items:center;
+   justify-content:center;
+}
+
+.App .section .main{
+  display: flex;
+  height:25rem;
+  width:21rem;
+  background:white;
+  box-shadow: 0 2px 1px rgba(0,0,0,0.09), 
+              0 4px 2px rgba(0,0,0,0.09), 
+              0 8px 4px rgba(0,0,0,0.09), 
+              0 16px 8px rgba(0,0,0,0.09),
+              0 32px 16px rgba(0,0,0,0.09);
+  align-items:center;
+  justify-content:center;
+  flex-direction:column;
+}
+
+.App .section .main .counter{
+  height:3.5rem;
+  width:100%;
+  background-color:blueviolet;
+  margin: 1.5rem 0;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+.App .section .main .assests{
+ 
+  display:flex;
+  align-items:center;
+  justify-content:space-around;
+  height:3.5rem;
+  width:100%;
+  
+  margin: 1.5rem 0;
+   
+}
+.App .section .main .counter span{
+  font-size:2rem;
+  font-weight:bolder;
+  color:white;
+}
+
+ 
+
+.App .section .main .assests   button, .App .section .main .assests   button{
+  padding:0.6rem 1.4rem;
+  font-size:1rem;
+  font-weight:bolder;
+  color:white;
+  background:linear-gradient(135deg, #e570e7 0%,#79f1fc 100%);
+  box-shadow: 0 2px 1px rgba(0,0,0,0.09), 
+              0 4px 2px rgba(0,0,0,0.09), 
+              0 8px 4px rgba(0,0,0,0.09), 
+              0 16px 8px rgba(0,0,0,0.09),
+              0 32px 16px rgba(0,0,0,0.09);
+  outline:none;
+  border : 0px solid
+}
+
+.App .section .assests button:active{
+  transform: scale(.96);
+
+
+}
+
+.App .section .main .reset{
+  height:3.5rem;
+  width:100%;
+   
+  margin: 1.5rem 0;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+.App .section .main .reset button{
+  padding:0.6rem 1.4rem;
+  font-size:1rem;
+  font-weight:bolder;
+  color:white;
+  background:linear-gradient(135deg, #e570e7 0%,#79f1fc 100%);
+  box-shadow: 0 2px 1px rgba(0,0,0,0.09), 
+              0 4px 2px rgba(0,0,0,0.09), 
+              0 8px 4px rgba(0,0,0,0.09), 
+              0 16px 8px rgba(0,0,0,0.09),
+              0 32px 16px rgba(0,0,0,0.09);
+  outline:none;
+  border : 0px solid
+}
+
+.App .section .reset button:active{
+  transform: scale(.96);
+
+
+}
+
+
+ 
+
+
+
+
+
+
